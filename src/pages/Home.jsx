@@ -6,6 +6,7 @@ import Images from '../components/Home/Images'
 const Home = () => {
   return (
     <>
+    <div>hello borhom</div>
     <NavBar />
     <MissionAndVision /> 
     <Images />
