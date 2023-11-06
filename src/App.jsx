@@ -1,8 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Home from './pages/Home'
+import Seconde from './pages/Seconde'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -11,5 +14,22 @@ function App() {
     </>
   )
 }
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    children: [
+      // {
+      //   path: 'First',
+      //   element: <First />,
+      // },
+      {
+        path: 'Seconde',
+        element: <Seconde />,
+      },
+    ],
+  },
+]);
 
 export default App
