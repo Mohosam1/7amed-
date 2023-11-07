@@ -1,9 +1,9 @@
 .container {
-    height: 85vh;
+    height: 65vh;
+    margin-top: 4rem;
 }
-.image {
-    height: 100%;
+
+.item {
     width: 100%;
-    border: 1px solid black;
-    object-fit: cover;
+    height: 100%;
 }
