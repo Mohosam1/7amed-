@@ -1,0 +1,9 @@
+.container {
+    height: 85vh;
+}
+.image {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    object-fit: cover;
+}

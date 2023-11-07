@@ -1,35 +1,46 @@
 
 import './App.css'
 import Home from './pages/Home'
+import First from './pages/First'
 import Seconde from './pages/Seconde'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-function App() {
-  return (
-    <>
-    <Home />
-    </>
-  )
-}
+import Third from './pages/Third'
+import Fourth from './pages/Fourth'
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Root from './pages/Root';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Root />,
     children: [
-      // {
-      //   path: 'First',
-      //   element: <First />,
-      // },
+      {
+        index: true,
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: 'First',
+        element: <First />,
+      },
       {
         path: 'Seconde',
         element: <Seconde />,
       },
+      {
+        path: 'Third',
+        element: <Third />,
+      },
+      {
+        path: 'Fourth',
+        element: <Fourth />,
+      },
     ],
   },
 ]);
+
+  function App() {
+    return <RouterProvider router={router} />;
+  }
+
 
 export default App

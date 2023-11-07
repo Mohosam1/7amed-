@@ -1,8 +1,8 @@
 import React from 'react'
-import Curr from '../components/Curr'
-import Announce from '../components/Announce'
-import NewsAndEvents from '../components/NewsAndEvents'
-import Calender from '../components/Calender'
+import Curr from '../components/first/Curr'
+import Announce from '../components/first/Announce'
+import NewsAndEvents from '../components/first/NewsAndEvents'
+import Calender from '../components/first/Calender'
 
 
 const First = () => {

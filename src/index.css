@@ -1,0 +1,13 @@
+:root {
+    box-sizing: border-box;
+    --anti-flash-white: #eef1ef;
+    --powder-blue: #a9b4c2 ;
+    --paynes-grey: #5e6572 ;
+    --cadet-grey: #7d98a1 ;
+    --eerie-black: #1c2321 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--powder-blue);
+}
