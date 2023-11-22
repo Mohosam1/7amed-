@@ -29,7 +29,7 @@ const NavBar = () => {
             isPending ? styles.binding : isActive ? styles.active : ""
           }
         >
-          third
+          Register
         </NavLink>
         <NavLink
           to="/fourth"
@@ -37,7 +37,7 @@ const NavBar = () => {
             isPending ? styles.binding : isActive ? styles.active : ""
           }
         >
-          fourth
+          Contact us
         </NavLink>
         </div>
        </navbar>

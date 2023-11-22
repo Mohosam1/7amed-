@@ -1,0 +1,98 @@
+.title {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 40rem;
+  background-color: var(--paynes-grey);
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+.label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-left: 4rem;
+}
+
+.label:where(:first-child) {
+  margin-top: 2rem;
+}
+
+.label > p {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    width: 20%;
+}
+
+.input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 70%;
+  border: 1px solid var(--anti-flash-white);
+}
+
+.input:where(.input + span) {
+    margin-top: -100rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: var(--eerie-black);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--anti-flash-white);
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--anti-flash-white);
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.option {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--anti-flash-white);
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+span {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    width: 70%;
+    text-align: center;
+}
