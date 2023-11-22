@@ -7,6 +7,15 @@ const NavBar = () => {
       <navbar className={styles.nav} >
           <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" alt="logo" className={styles.logo} />
         <div className={styles.NavBar}>
+
+          <NavLink
+          to="/"
+          className={({ isActive , isPending }) =>
+            isPending ? styles.binding : isActive ? styles.active : ""
+          }
+        >
+          Home 
+        </NavLink>
         <NavLink
           to="/first"
           className={({ isActive , isPending }) =>
